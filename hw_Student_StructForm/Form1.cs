@@ -20,11 +20,6 @@ namespace hw_Student_StructForm
 
         Student student;
 
-        int chi;
-        int eng;
-        int math;
-
-
         protected void SetStudent()
         {
             if (string.IsNullOrEmpty(student.Name))
